@@ -353,7 +353,7 @@ line-height: 24px; /* 171.429% */
 }
 
 
-
+/* FOOTER SECTION */
 /* FOOTER SECTION - Mobile First */
 .footer-section {
   display: flex;
@@ -518,3 +518,28 @@ line-height: 24px; /* 171.429% */
     width: 1272px; /* Restore exact width only on large screens */
   }
 }
+
+/* Mobile & Tablet fixes - ADD THESE */
+
+/* On small screens: reduce large padding and make container flexible */
+@media (max-width: 1023px) {
+  .navbar {
+    padding: 16px 20px; /* Much smaller side padding to prevent overflow */
+  }
+
+  .navbar .nav-container {
+    width: 100%;        /* Full width instead of fixed 1265px */
+    max-width: none;    /* Remove the hard limit */
+    gap: 0;             /* Remove the huge 267px gap that pushes content */
+    justify-content: center; /* Keep logo centered */
+  }
+}
+
+/* Optional: Tablet-specific (if you want slightly more padding than mobile) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    padding: 16px 40px;
+  }
+}
+
+/* Your original large-screen styles remain untouched above 1024px */
