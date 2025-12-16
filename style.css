@@ -625,6 +625,8 @@ line-height: 24px; /* 171.429% */
     max-width: 900px;
     margin: 80px auto;        /* Center with auto sides */
     padding: 32px;
+    border: none;
+    border-radius: none;
   }
 
   .small-divider {
