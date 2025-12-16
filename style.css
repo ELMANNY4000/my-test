@@ -556,6 +556,9 @@ line-height: 24px; /* 171.429% */
     margin: 40px 16px;        /* Smaller margins, no overflow */
     padding: 24px 16px;       /* Reduced padding */
     gap: 32px;
+     border-radius: 0;
+    border: none;
+    background: transparent;
   }
 
   .header-para {
