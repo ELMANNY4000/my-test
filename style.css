@@ -553,7 +553,7 @@ line-height: 24px; /* 171.429% */
     width: 100%;              /* Full width */
     min-height: auto;         /* Flexible height */
     height: auto;
-    margin: 40px 16px;        /* Smaller margins, no overflow */
+    margin: 0px 16px;        /* Smaller margins, no overflow */
     padding: 24px 16px;       /* Reduced padding */
     gap: 32px;
      border-radius: 0px;
@@ -626,7 +626,7 @@ line-height: 24px; /* 171.429% */
   .hero {
     width: 90%;
     max-width: 900px;
-    margin: 80px auto;        /* Center with auto sides */
+    margin: 0px auto;        /* Center with auto sides */
     padding: 32px;
       border-radius: 0px;
     border: none;
